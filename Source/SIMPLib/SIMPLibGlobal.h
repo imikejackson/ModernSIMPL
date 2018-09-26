@@ -1,5 +1,8 @@
 #pragma once
 
+#define SIMPLib_EXPORT 
+
+
 #define Q_D(Class) Class##Private * const d = d_func()
 
 #define Q_Q(Class) Class * const q = q_func()
